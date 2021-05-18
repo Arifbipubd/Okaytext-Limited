@@ -1,0 +1,115 @@
+
+/*-------------------Contact------------*/
+.contact-box{
+    display: flex;
+    margin-bottom: -40px;
+   
+}
+.contact-rightHeading h3{
+    margin: 0 0 15px 15px;
+}
+.contact-rightHeading h5{
+    margin: 0 0 25px 20px;
+}
+.contact-left{
+    flex-basis: 45%;
+    margin: 75px 20px 0 0px;
+}
+.contact-right{
+    flex-basis: 50%;
+    color: rgb(14, 13, 13);
+    margin: 100px 40px 60px 10px;
+    
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+.contact-right form{
+    margin-left: 25px;
+}
+.input-row{
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 8px;;
+}
+.input-group{
+    flex-basis: 46%;
+    margin-right: 25px;
+
+}
+.input-group:nth-child(2){
+    margin-right: 0;
+}
+input{
+    width: 95%;
+    padding:5px 5px 5px 5px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+}
+textarea{
+    width: 95%;
+    height: 90px;
+    padding:5px 5px 5px 5px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+}
+label{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    display: block;
+}
+.contact-btn{
+    width: 120px;
+    background: rgb(36, 35, 35);
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 10px;
+    color:#f9f9fa;
+    margin-bottom: 10px;
+    border: none;
+}
+.contact-btn:hover{
+    background: #2E397A;
+    color: White;
+}
+.contactRightDetails{
+    margin: 35px 0;
+    display: flex;
+}
+.contactRightAddress {
+    margin-left: 25px;
+}
+.contactRightAddress h5{
+    margin-bottom: 20px;
+}
+.contactRightContact h5{
+    margin-bottom: 20px;
+}
+.contactRightAddressFlex{
+    display: flex;
+}
+.contactRightAddressIcon .fa{
+    font-size: 45px;
+    margin-right: 20px;
+}
+.contactRightContact{
+    margin-left: 45px;
+}
+.contactRightContact .fa{
+    margin-right: 10px;
+}
+.contactSocialIcon{
+    display: flex;
+}
+.contactIcons{
+    margin-left: 65px;
+}
+.contactIcons img{
+    height: 35px;
+    width: 35px;
+    margin-left: 15px;
+}

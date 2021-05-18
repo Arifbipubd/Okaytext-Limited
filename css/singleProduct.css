@@ -1,0 +1,188 @@
+
+/*-------------------Single Product------------*/
+.singleProduct{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.singleProductDesc{
+    display: flex;
+}
+.singleProductPic{
+    margin-left: 100px;
+}
+.smallPic{
+    margin-left: 20px;
+}
+.smallPic img{
+    height: 180px;
+    width: 150px;
+    margin-bottom: 8px;
+}
+.largePic{
+    margin-left: 180px;
+    margin-top: -565px;
+}
+.largePic img{
+    height: 558px;
+    width: 400px;
+}
+.singleProductDes{
+    margin-left: 30px;
+}
+.singleProductDesHeading{
+    display: flex;
+}
+.singleProductDesHeading2{
+    margin-left: 120px;
+    color: rgb(105, 103, 103);;
+    border: 1px solid rgb(212, 209, 209);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    height: 35px;
+}
+.singleProductDesHeading2 h6{
+    padding: 7px 20px 0 30px;
+}
+.singleProductBodyDes{
+    margin: 35px 100px 25px 0;
+}
+.singleProductBodyDes p{
+    text-align: justify;
+    line-height: 25px;
+}
+.singleProductBodyLastDes{
+    color: rgb(51, 50, 50);
+}
+.singleProductBodyLastDesContent1{
+    margin-bottom: 20px;
+}
+.singleProductBodyLastDesContent2{
+    display: flex;
+    margin-bottom: 10px;
+}
+.singleProductBodyLastDesDoubleContent2{
+    margin-left: 60px;
+}
+.singleProductBodyLastDesDoubleContent3{
+    margin-left: 32px;
+}
+.singleProductBodyLastDesDoubleContent4{
+    display: flex;
+    margin-left: 60px;
+}
+.singleProductBodyLastDesDoubleContent5{
+    display: flex;
+    margin-left: 200px;
+    margin-top: -30px;
+}
+.availableSize p{
+    border: 1px solid gray;
+    height: 25px;
+    padding: 0 10px;
+    margin-right: 10px;
+}
+.ColorRed {
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    margin-right: 10px;
+}
+.ColorGreen {
+    height: 25px;
+    width: 25px;
+    background-color: green;
+    margin-right: 10px;
+}
+
+.ColorYellow {
+    height: 25px;
+    width: 25px;
+    background-color: Yellow;
+    margin-right: 10px;
+}
+
+.ColorBlue {
+    height: 25px;
+    width: 25px;
+    background-color: Blue;
+    margin-right: 10px;
+}
+
+.ColorPink {
+    height: 25px;
+    width: 25px;
+    background-color: palevioletred;
+    margin-right: 10px;
+}
+.singleProductBtn{
+    margin: 30px 0 0 0;
+}
+.singleProductBtn button{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #202020;
+    color: rgb(212, 209, 209);
+}
+.singleProductBtn button:focus{
+    outline: 0;
+}
+.singleProductDetails{
+    margin: 40px 0;
+}
+.singleProductDetailsHeading{
+ text-align: center; 
+}
+.singleProductDetailsHeading h4{
+    text-align: center; 
+   margin-top: 15px;
+ }
+.detailscontent{
+    background-color: rgb(240, 240, 240);
+}
+.checkboxContent{
+    margin-top: 55px;
+}
+.singleProductDetailsParagrap{
+    margin: 25px 25px 65px 25px;
+    text-align: justify;
+    line-height: 35px;
+}
+label{
+    padding-left: 25px;
+}
+.checkbox{
+    margin-bottom: 25px;
+    margin-left: 45px;
+}
+
+.similarProduct{
+    height: 550px;
+}
+.similarProduct h1{
+    text-align: left;
+    padding-top: 30px;
+    margin-bottom: 25px;
+    margin-left: 125px;
+}
+.products{
+    display: flex;
+    overflow-x: auto;
+    margin: 0 120px;
+}
+.products .product img{
+    min-width: 200px;
+    height: 380px;
+    margin: 10px;
+    border-radius: 5px;
+    margin-bottom: 65px;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+::-webkit-scrollbar-thumb {
+    background: #7c5976;
+}
+
+

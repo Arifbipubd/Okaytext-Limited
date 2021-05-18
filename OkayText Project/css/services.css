@@ -1,0 +1,44 @@
+
+/*-----------ourService------------*/
+.ourServicePic img{
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 70px;
+}
+.ourServicePic h1{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    font-size: 50px;
+}
+.ourServiceContents{
+    margin-bottom: 60px;
+}
+.ourServiceContents h2{
+    text-align: center;
+    font-weight: bolder;
+    margin: 40px 0;
+    font-size: 45px;
+}
+.ourServiceConent{
+    height: 380px;
+    width: 550px;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 10px #b1aeae;
+}
+.ourServiceConent h4{
+    text-align: center;
+    padding: 35px;
+    font-weight: bolder;
+}
+.ourServiceConent p{
+    text-align: justify;
+    padding: 45px;
+    padding-top: 0;
+    font-weight: 200;
+}
+
